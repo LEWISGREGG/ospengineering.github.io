@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COUNT</title>
+    <link rel="stylesheet" href="./fontawesome-free-5.12.1-web/css/all.min.css"/>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/stylescount.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fondamento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section class="section form">
+      <div class="section-title">
+        <h2>COUNT</h2>
+        <div class="underline"></div>
+      </div>
+      <div class="section-center form-center">
+        <div class="card">
+          <div class="card-side card-front">
+              <div class="card-info">
+              <p>MIXED COUNT</p>
+              <h4 class="space">XA
+              <input type="text" id="sxa1" placeholder="1234"> -<input type="text" id="sxa2" placeholder="4321"></h4>
+              <h4 class="space1">H1001
+              <input type="text" id="sh1" placeholder="1234"> -<input type="text" id="sh2" placeholder="4321"></h4>
+              <h4>PX1001
+              <input type="text" id="spx1" placeholder="1234"> -<input type="text" id="spx2" placeholder="4321"></h4>
+              <h4 class="space">XB
+              <input type="text" id="sxb1" placeholder="1234"> -<input type="text" id="sxb2" placeholder="4321"></h4>
+              <h4 class="space3">TOTAL
+              <input type="text" id="tot1"></h4>
+              <p>COUNT USED AT SPLICE POINT</p>
+              <h4 class="space1">H1001
+              <input type="text" id="sh7" placeholder="1234"> -<input type="text" id="sh8" placeholder="4321"></h4>
+              <h4>PX1001
+              <input type="text" id="spx7" placeholder="1234"> -<input type="text" id="spx8" placeholder="4321"></h4>
+              <div class="card-footer">
+              <h5>Note: Input count associated with splice & see final result on the back of the card</h5>
+              </div>
+            </div>
+            </div>
+          <!-- card back  -->
+          <div class="card-side card-back">
+            <div class="card-info">
+            <p>FINAL RESULT</p>
+            <h4 class="space">XA
+              <input type="text" id="sxa3"> - <input type="text" id="sxa4"></h4>
+            <h4 class="space1">H1001
+              <input type="text" id="sh3"> - <input type="text" id="sh4"></h4>
+            <h4 class="space2">XD
+              <input type="text" id="sd1"> - <input type="text" id="sd2"></h4>
+            <h4 class="space1">H1001
+              <input type="text" id="sh5"> - <input type="text" id="sh6"></h4>
+            <h4>PX1001
+              <input type="text" id="spx3"> - <input type="text" id="spx4"></h4>
+            <h4 class="space2">XD
+              <input type="text" id="sd3"> - <input type="text" id="sd4"></h4>
+            <h4>PX1001
+              <input type="text" id="spx5"> - <input type="text" id="spx6"></h4>
+            <h4 class="space">XB
+              <input type="text" id="sxb3"> - <input type="text" id="sxb4"></h4>
+            <h4 class="space3">TOTAL
+              <input type="text" id="tot2"></h4>
+          </div>
+        </div>
+        </div>
+
+
+        <div class="card">
+          <div class="card-side card-front">
+              <div class="card-info">
+              <p class="tour-date">FLIP</p>
+              <p>SIMPLE BOTTOM COUNT</p>
+              <h4 class="space">XA
+              <input type="text" id="axa1" placeholder="1234"> - <input type="text" id="axa2" placeholder="4321"></h4>
+              <h4 class="space1">H1001
+              <input type="text" id="ah1" placeholder="1234"> - <input type="text" id="ah2" placeholder="4321"></h4>
+              <h4 class="space">XB
+              <input type="text" id="axb1" placeholder="1234"> - <input type="text" id="axb2" placeholder="4321"></h4>
+              <h4 class="space3">TOTAL
+                <input type="text" id="tot4"></h4>
+              <p>COUNT USED AT SPLICE POINT</p>
+              <h4 class="space1">H1001
+              <input type="text" id="ah5" placeholder="1234"> - <input type="text" id="ah6" placeholder="4321"></h4>
+              <div class="card-footer">
+              <h5>Note: Input count associated with splice & see final result on the back of the card</h5>
+              </div>
+            </div>
+            </div>
+          <!-- card back  -->
+          <div class="card-side card-back">
+            <div class="card-info">
+            <p>FINAL RESULT</p>
+            <h4 class="space">XA
+              <input type="text" id="axa3"> - <input type="text" id="axa4"></h4>
+            <h4 class="space2">XD
+              <input type="text" id="ad1"> - <input type="text" id="ad2"></h4>
+            <h4 class="space1">H1001
+              <input type="text" id="ah3"> - <input type="text" id="ah4"></h4>
+            <h4 class="space">XB
+              <input type="text" id="axb3"> - <input type="text" id="axb4"></h4>
+            <h4 class="space3">TOTAL
+              <input type="text" id="tot5"></h4>
+          </div>
+        </div>
+        </div>
+
+          <div class="card">
+          <div class="card-side card-front">
+              <div class="card-info">
+              <p>SIMPLE UPPER COUNT</p>
+              <h4 class="space">XA
+              <input type="text" id="bxa1" placeholder="1234"> - <input type="text" id="bxa2" placeholder="4321"></h4>
+              <h4 class="space1">H1001
+              <input type="text" id="bh1" placeholder="1234"> - <input type="text" id="bh2" placeholder="4321"></h4>
+              <h4 class="space">XB
+              <input type="text" id="bxb1" placeholder="1234"> - <input type="text" id="bxb2" placeholder="4321"></h4>
+              <h4 class="space3">TOTAL
+              <input type="text" id="tot6"></h4>
+              <p>COUNT USED AT SPLICE POINT</p>
+              <h4 class="space1">H1001
+              <input type="text" id="bh5" placeholder="1234"> - <input type="text" id="bh6" placeholder="4321"></h4>
+              <div class="card-footer">
+              <h5>Note: Input count associated with splice & see final result on the back of the card</h5>
+              </div>
+            </div>
+            </div>
+          <!-- card back  -->
+          <div class="card-side card-back">
+            <div class="card-info">
+            <p>FINAL RESULT</p>
+            <h4 class="space">XA
+              <input type="text" id="bxa3"> - <input type="text" id="bxa4"></h4>
+            <h4 class="space1">H1001
+              <input type="text" id="bh3"> - <input type="text" id="bh4"></h4>
+            <h4 class="space2">XD
+              <input type="text" id="bd1"> - <input type="text" id="bd2"></h4>
+            <h4 class="space">XB
+              <input type="text" id="bxb3"> - <input type="text" id="bxb4"></h4>
+            <h4 class="space3">TOTAL
+              <input type="text" id="tot7"></h4>
+          </div>
+      </div>
+      </div>
+
+      <div class="card1">
+        <div class="card-side card-front">
+          <div class="card-info">
+            <p>COUNT VERIFICATION</p>
+            <h4 class="space5">I
+              <input type="text" id="c1" placeholder="1234"> - <input type="text" id="c2" placeholder="4321"> = 
+              <input type="text" id="f1"></h4>
+            <h4 class="space6">II
+              <input type="text" id="c3" placeholder="1234"> - <input type="text" id="c4" placeholder="4321"> =
+              <input type="text" id="f2"></h4>
+            <h4 class="space7">III
+              <input type="text" id="c5" placeholder="1234"> - <input type="text" id="c6" placeholder="4321"> =
+              <input type="text" id="f3"></h4>
+            <h4 class="space8">IV
+              <input type="text" id="c7" placeholder="1234"> - <input type="text" id="c8" placeholder="4321"> =
+              <input type="text" id="f4"></h4>
+            <h4 class="space9">V
+              <input type="text" id="c9" placeholder="1234"> - <input type="text" id="c10" placeholder="4321"> =
+              <input type="text" id="f5"></h4>
+            <h4 class="space10">VI
+              <input type="text" id="c11" placeholder="1234"> - <input type="text" id="c12" placeholder="4321"> =
+              <input type="text" id="f6"></h4>
+            <h4 class="space4">VII
+              <input type="text" id="c13" placeholder="1234"> - <input type="text" id="c14" placeholder="4321"> =
+              <input type="text" id="f7"></h4>
+            <h4>VIII
+              <input type="text" id="c15" placeholder="1234"> - <input type="text" id="c16" placeholder="4321"> =
+              <input type="text" id="f8"></h4>
+            <h4 class="space12">IX
+              <input type="text" id="c17" placeholder="1234"> - <input type="text" id="c18" placeholder="4321"> =
+              <input type="text" id="f9"></h4>
+            <h4 class="space13">X
+              <input type="text" id="c19" placeholder="1234"> - <input type="text" id="c20" placeholder="4321"> =
+              <input type="text" id="f10"></h4>
+            <h4 class="space14">XI
+              <input type="text" id="c21" placeholder="1234"> - <input type="text" id="c22" placeholder="4321"> =
+              <input type="text" id="f11"></h4>
+            <h4 class="space15">XII
+              <input type="text" id="c23" placeholder="1234"> - <input type="text" id="c24" placeholder="4321"> =
+              <input type="text" id="f12"></h4>
+            <p>COUNT USED AT SPLICE POINT</p>
+            <h4 class="space3">TOTAL
+              <input type="text" id="tot3"></h4>
+            <div class="card-footer">
+              <h5>Count Flow Continuity & Verification</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="card2">
+        <div class="card-side card-front">
+          <div class="card-info">
+            <p>COUNT POSITIONING IN 1728F CABLE</p>
+            <h5>INPUT COUNT YOU WANT TO POSITION IN CORE</h5>
+            <h4 class="space17">COUNT
+              <input type="text" id="z1" placeholder="1234"> - <input type="text" id="z2" placeholder="4321"></h4>
+            <h5>SHOW THE RIGHT TUBE E.G FROM 1-12</h5>
+            <h4 class="space12">TUBE NUMBER
+              <input type="text" id="z3" placeholder="I-XII"></h4>
+            <h5>CHOOSE CORE POSITION INSIDE CORE CABLE E.G. 1-144 / 145-288 / 289-432 / 433-576</h5>
+            <h4>CORE POSITION
+              <input type="text" id="z4" placeholder="289"> - <input type="text" id="z5" placeholder="432"></h4>
+            <h5>TYPE VALID POSITION INSIDE TUBE</h5>
+            <h4 class="space16">POSITION  
+              <input type="text" id="z8" placeholder="1-12"></h4>
+            <p>FINAL COUNT POSITIONING</p>
+            <h4 class="space17">RESULT
+              <input type="text" id="z6">-<input type="text" id="z7"></h4>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <script src="./js/appcount.js"></script>
+    <script src="./js/count.js"></script>
+  </body>
+</html>
