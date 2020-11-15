@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Fondamento&display=swap");
+
+:root {
+  --clr-primary-1: hsl(9, 100%, 34%);
+  --clr-primary-2: hsl(43, 77%, 27%);
+  --clr-primary-3: hsl(43, 72%, 37%);
+  --clr-primary-4: hsl(42, 63%, 48%);
+  --clr-primary-5: hsl(42, 78%, 60%);
+  --clr-primary-6: hsl(43, 89%, 70%);
+  --clr-primary-7: hsl(43, 90%, 76%);
+  --clr-primary-8: hsl(45, 86%, 81%);
+  --clr-primary-9: hsl(45, 90%, 88%);
+  --clr-primary-10: hsl(45, 100%, 96%);
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --ff-primary: "Fondamento", sans-serif;
+  --transition: all 0.4s linear;
+  --spacing: 0.24rem;
+  --radius: 0.55rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.25rem;
+  font-family: var(--ff-primary);
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--clr-grey-5);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h5 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--clr-grey-5);
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--clr-primary-1);
+}
+
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  body {
+    font-size: 1rem;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  height: 100vh;
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+  }
+}
+
+
+
+.underline {
+  width: 10rem;
+  height: 0.3rem;
+  margin-bottom: 1.35rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+
+.form {
+  background: var(--clr-grey-10);
+}
+
+#flip {
+  
+  border-radius: var(--radius);
+  float: left;
+  color: var(--clr-grey-4);
+}
+.flip {
+
+  border-radius: var(--radius);
+  float: left;
+  color: var(--clr-grey-4);
+}
+
+
+.card {
+  height: 23rem;
+  position: relative;
+  -webkit-perspective: 1500px;
+  perspective: 1500px;
+}
+.card1 {
+  height: 33rem;
+  position: relative;
+  -webkit-perspective: 1500px;
+  perspective: 1500px;
+}
+.card2 {
+  height: 25rem;
+  position: relative;
+  -webkit-perspective: 1500px;
+  perspective: 1500px;
+}
+.card-side {
+  -webkit-transition: all 2s linear;
+  transition: all 2s linear;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius);
+  visibility: visible;
+}
+
+.card-front {
+  background: var(--clr-white);
+}
+
+.card-back {
+  background: var(--clr-primary-10);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(0);
+}
+.card-back1 {
+  visibility: hidden;
+  background: var(--clr-primary-10);
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(0);
+}
+.flip:hover  {
+  cursor: pointer;
+}
+.card:hover .card-front {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+}
+
+.card:hover .card-back {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(180deg);
+}
+
+.card-info {
+  padding: 1rem 1.5rem;
+}
+
+.form-center {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 3rem 1rem;
+}
+
+.space {
+  position: relative;
+  left: 49px;
+  top: 0;
+}
+.space1 {
+  position: relative;
+  left: 13px;
+  top: 0;
+}
+.space2 {
+  position: relative;
+  left: 48px;
+  top: 0;
+}
+.space3 {
+  position: relative;
+  left: 44px;
+  top: 0;
+}
+.space4 {
+  position: relative;
+  left: 9px;
+  top: 0;
+}
+.space5 {
+  position: relative;
+  left: 35px;
+  top: 0;
+}
+.space6 {
+  position: relative;
+  left: 25px;
+  top: 0;
+}
+.space7 {
+  position: relative;
+  left: 15px;
+  top: 0;
+}
+.space8, .space10 {
+  position: relative;
+  left: 19px;
+  top: 0;
+}
+.space9 {
+  position: relative;
+  left: 28px;
+  top: 0;
+}
+.space11 {
+  position: relative;
+  left: 28px;
+  top: 0;
+}
+.space12, .space14  {
+  position: relative;
+  left: 17px;
+  top: 0;
+}
+.space13 {
+  position: relative;
+  left: 27px;
+  top: 0;
+}
+.space15 {
+  position: relative;
+  left: 8px;
+  top: 0;
+}
+.space16 {
+  position: relative;
+  left: 68px;
+  top: 0;
+}
+
+.space17 {
+  position: relative;
+  left: 98px;
+  top: 0;
+}
+
+.space18 {
+  position: relative;
+  left: 18px;
+  top: 0;
+}
+/*  mixed form 1  */
+
+input {
+  text-align: center;
+  font-family: var(--ff-primary);
+  align-items: center;
+  cursor: pointer;
+}
+
+
+#sxa1, #sxa2, #sxa3, #sxa4, #sh1, #sh2, #sh3, #sh4, #sh5, #sh6, #sh7, #sh8, #spx1, #spx2, #spx3, #spx4, #spx5, #spx6,  #spx7, #spx8, #sxb1, #sxb2, #sxb3, #sxb4, #sd1, #sd2, #sd3, #sd4, #tot1, #tot2  {
+  font-size: 1rem;
+  height: 25px;
+  width: 45px;
+}
+
+/*  simple bottom count scheme  */
+#axa1, #axa2, #axa3, #axa4, #ah1, #ah2, #ah3, #ah4, #ah5, #ah6,  #axb1, #axb2, #axb3, #axb4, #ad1, #ad2, #tot4, #tot5   {
+  font-size: 1rem;
+  height: 25px;
+  width: 45px;
+}
+/*  simple upper count scheme  */
+#bxa1, #bxa2, #bxa3, #bxa4, #bh1, #bh2, #bh3, #bh4, #bh5, #bh6,  #bxb1, #bxb2, #bxb3, #bxb4, #bd1, #bd2, #tot6, #tot7   {
+  font-size: 1rem;
+  height: 25px;
+  width: 45px;
+}
+/*  count verification  */
+#c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8, #c9, #c10, #c11, #c12, #c13, #c14, #c15, #c16, #c17, #c18, #c19, #c20, #c21, #c22, #c23, #c24, #tot3, #f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8, #f9, #f10, #f11, #f12 {
+  font-size: 1rem;
+  height: 25px;
+  width: 45px;
+}
+/*  count verification  */
+#z1, #z2, #z3, #z4, #z5, #z6, #z7, #z8 {
+  font-size: 1rem;
+  height: 25px;
+  width: 45px;
+}

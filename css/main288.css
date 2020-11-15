@@ -1,0 +1,215 @@
+:root {
+  --mainRosy: #ffccf4;
+  --mainLightestGreen: #fff19f;
+  --mainWhite: #fafaf4;
+  --mainDark: #070606;
+  --mainOrange: #f7ff8a;
+  --mainYellow: #d9fad4;
+  --mainGreen: #0dac0d;
+  --mainTangerine: #f09a54;
+  --mainTransition: all 1s ease-in-out;
+}
+
+body {
+  font-family: 'Fondamento', cursive;
+  background: linear-gradient(to right, var(--mainRosy), var(--mainLightestGreen), var(--mainWhite));
+  color: var(--mainDark);
+}
+
+@media print {
+  #noprint {
+    visibility: hidden;
+  }
+}
+
+#feedback {
+  font-size: 1em;
+}
+
+#selectable .ui-selecting {
+  background: #FECA40;
+}
+
+#selectable .ui-selected {
+  background: #F39814;
+  color: white;
+}
+
+#selectable {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 490px;
+}
+
+.btnlist {
+  margin: 1px;
+  padding: 1px;
+  float: left;
+  width: 35px;
+  height: 20px;
+  font-size: 1em;
+  text-align: center;
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-color: var(--mainTangerine);
+  color: var(--mainDark);
+  background: transparent;
+  font-weight: bold;
+  border-radius: 0.8rem;
+  text-align: center;
+}
+
+.btnlist:hover {
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-color: var(--mainTangerine);
+  color: var(--mainTangerine);
+  background: transparent;
+  font-weight: bold;
+  border-radius: 0.8rem;
+  text-align: center;
+  background: var(--mainTangerine);
+  color: var(--mainDark);
+  transition: var(--mainTransition);
+}
+
+.show-btn {
+  text-align: center;
+  font-size: 0.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-color: var(--mainTangerine);
+  color: var(--mainTangerine);
+  background: transparent;
+}
+
+.show-btn:hover {
+  cursor: pointer;
+  background: var(--mainTangerine);
+  color: var(--mainWhite);
+  transition: var(--mainTransition);
+}
+
+.terminal-card {
+  text-align: center;
+  display: none;
+  position: relative;
+  background: transparent;
+  border-color: var(--mainTangerine);
+  border-radius: 1rem;
+  border: 0.1rem solid var(--mainTangerine);
+  -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.65);
+  transition: var(--mainTransition);
+}
+
+.terminal-card:hover {
+  background: var(--mainYellow);
+  transition: var(--mainTransition);
+}
+
+.feedback {
+  display: none;
+}
+
+.divider {
+  margin-top: 1rem;
+}
+
+textarea {
+  border-radius: 0.25rem;
+  border-color: var(--mainTangerine);
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  font-size: 1.5rem;
+  color: var(--mainTangerine);
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: var(--mainDark);
+  transition: var(--mainTransition);
+}
+
+.submitBtn {
+  font-size: 0.75rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0.1rem solid var(--mainGreen);
+  color: var(--mainGreen);
+  background: transparent;
+
+}
+
+.submitBtn:hover {
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+  transition: var(--mainTransition);
+}
+
+.colorBtn {
+  font-size: 0.75rem;
+  border: 0.1rem solid var(--mainGreen);
+  color: var(--mainGreen);
+  background: transparent;
+}
+
+.colorBtn:hover {
+  background: var(--mainGreen);
+  color: var(--mainDark);
+}
+
+.edit-terminalcard {
+  font-size: 0.75rem;
+  border: 0.1rem solid var(--mainGreen);
+  color: var(--mainGreen);
+  background: transparent;
+}
+
+.edit-terminalcard:hover {
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+  transition: var(--mainTransition);
+}
+
+.delete-terminalcard {
+  font-size: 0.75rem;
+  border: 0.1rem solid var(--mainTangerine);
+  color: var(--mainTangerine);
+  background: transparent;
+}
+
+.delete-terminalcard:hover {
+  background: var(--mainTangerine);
+  color: var(--mainWhite);
+  transition: var(--mainTransition);
+}
+
+.showItem {
+  display: block;
+}
+
+.card-body {
+  border: 0.2rem solid var(--mainTangerine);
+}
+
+.card-body:hover {
+  background: var(--mainYellow);
+  transition: var(--mainTransition);
+  -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.65);
+}
