@@ -26,438 +26,438 @@ function selected(item) {
 
 }
 
-if (localStorage.getItem("firstlink")) {
- document.getElementById('firstlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("firstlinka")) {
+ document.getElementById('firstlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("secondlink")) {
- document.getElementById('secondlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("secondlinka")) {
+ document.getElementById('secondlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("thirdlink")) {
- document.getElementById('thirdlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("thirdlinka")) {
+ document.getElementById('thirdlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("fourthlink")) {
- document.getElementById('fourthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("fourthlinka")) {
+ document.getElementById('fourthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("fifthlink")) {
- document.getElementById('fifthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("fifthlinka")) {
+ document.getElementById('fifthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("sixthlink")) {
- document.getElementById('sixthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("sixthlinka")) {
+ document.getElementById('sixthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("seventhlink")) {
- document.getElementById('seventhlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("seventhlinka")) {
+ document.getElementById('seventhlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("eighthlink")) {
- document.getElementById('eighthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("eighthlinka")) {
+ document.getElementById('eighthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("ninthlink")) {
- document.getElementById('ninthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("ninthlinka")) {
+ document.getElementById('ninthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("tenthlink")) {
- document.getElementById('tenthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("tenthlinka")) {
+ document.getElementById('tenthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("eleventhlink")) {
- document.getElementById('eleventhlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("eleventhlinka")) {
+ document.getElementById('eleventhlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("twelvthink")) {
- document.getElementById('twelvthink').style.backgroundColor = "yellow";
+if (localStorage.getItem("twelvthinka")) {
+ document.getElementById('twelvthinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("thirtenthlink")) {
- document.getElementById('thirtenthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("thirtenthlinka")) {
+ document.getElementById('thirtenthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("fourteenthlink")) {
- document.getElementById('fourteenthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("fourteenthlinka")) {
+ document.getElementById('fourteenthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("fifteenthlink")) {
- document.getElementById('fifteenthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("fifteenthlinka")) {
+ document.getElementById('fifteenthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("sixteenthlink")) {
- document.getElementById('sixteenthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("sixteenthlinka")) {
+ document.getElementById('sixteenthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("seventeenthlink")) {
- document.getElementById('seventeenthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("seventeenthlinka")) {
+ document.getElementById('seventeenthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("eighteenthlink")) {
- document.getElementById('eighteenthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("eighteenthlinka")) {
+ document.getElementById('eighteenthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("nineteenthlink")) {
- document.getElementById('nineteenthlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("nineteenthlinka")) {
+ document.getElementById('nineteenthlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("20thlink")) {
- document.getElementById('20thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("20thlinka")) {
+ document.getElementById('20thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("21thlink")) {
- document.getElementById('21thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("21thlinka")) {
+ document.getElementById('21thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("22thlink")) {
- document.getElementById('22thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("22thlinka")) {
+ document.getElementById('22thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("23thlink")) {
- document.getElementById('23thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("23thlinka")) {
+ document.getElementById('23thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("24thlink")) {
- document.getElementById('24thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("24thlinka")) {
+ document.getElementById('24thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("25thlink")) {
- document.getElementById('25thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("25thlinka")) {
+ document.getElementById('25thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("26thlink")) {
- document.getElementById('26thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("26thlinka")) {
+ document.getElementById('26thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("27thlink")) {
- document.getElementById('27thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("27thlinka")) {
+ document.getElementById('27thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("28thlink")) {
- document.getElementById('28thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("28thlinka")) {
+ document.getElementById('28thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("29thlink")) {
- document.getElementById('29thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("29thlinka")) {
+ document.getElementById('29thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("30thlink")) {
- document.getElementById('30thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("30thlinka")) {
+ document.getElementById('30thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("31thlink")) {
- document.getElementById('31thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("31thlinka")) {
+ document.getElementById('31thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("32thlink")) {
- document.getElementById('32thlink').style.backgroundColor = "yellow";
-}
-
-if (localStorage.getItem("33thlink")) {
- document.getElementById('33thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("32thlinka")) {
+ document.getElementById('32thlinka').style.backgroundColor = "yellow";
 }
 
-if (localStorage.getItem("34thlink")) {
- document.getElementById('34thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("33thlinka")) {
+ document.getElementById('33thlinka').style.backgroundColor = "yellow";
 }
 
-if (localStorage.getItem("35thlink")) {
- document.getElementById('35thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("34thlinka")) {
+ document.getElementById('34thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("36thlink")) {
- document.getElementById('36thlink').style.backgroundColor = "yellow";
+
+if (localStorage.getItem("35thlinka")) {
+ document.getElementById('35thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("37thlink")) {
- document.getElementById('37thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("36thlinka")) {
+ document.getElementById('36thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("38thlink")) {
- document.getElementById('38thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("37thlinka")) {
+ document.getElementById('37thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("39thlink")) {
- document.getElementById('39thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("38thlinka")) {
+ document.getElementById('38thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("40thlink")) {
- document.getElementById('40thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("39thlinka")) {
+ document.getElementById('39thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("41thlink")) {
- document.getElementById('41thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("40thlinka")) {
+ document.getElementById('40thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("42thlink")) {
- document.getElementById('42thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("41thlinka")) {
+ document.getElementById('41thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("43thlink")) {
- document.getElementById('43thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("42thlinka")) {
+ document.getElementById('42thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("44thlink")) {
- document.getElementById('44thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("43thlinka")) {
+ document.getElementById('43thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("45thlink")) {
- document.getElementById('45thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("44thlinka")) {
+ document.getElementById('44thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("46thlink")) {
- document.getElementById('46thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("45thlinka")) {
+ document.getElementById('45thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("47thlink")) {
- document.getElementById('47thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("46thlinka")) {
+ document.getElementById('46thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("48thlink")) {
- document.getElementById('48thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("47thlinka")) {
+ document.getElementById('47thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("49thlink")) {
- document.getElementById('49thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("48thlinka")) {
+ document.getElementById('48thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("50thlink")) {
- document.getElementById('50thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("49thlinka")) {
+ document.getElementById('49thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("51thlink")) {
- document.getElementById('51thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("50thlinka")) {
+ document.getElementById('50thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("52thlink")) {
- document.getElementById('52thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("51thlinka")) {
+ document.getElementById('51thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("53thlink")) {
- document.getElementById('53thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("52thlinka")) {
+ document.getElementById('52thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("54thlink")) {
- document.getElementById('54thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("53thlinka")) {
+ document.getElementById('53thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("55thlink")) {
- document.getElementById('55thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("54thlinka")) {
+ document.getElementById('54thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("56thlink")) {
- document.getElementById('56thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("55thlinka")) {
+ document.getElementById('55thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("57thlink")) {
- document.getElementById('57thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("56thlinka")) {
+ document.getElementById('56thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("58thlink")) {
- document.getElementById('58thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("57thlinka")) {
+ document.getElementById('57thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("59thlink")) {
- document.getElementById('59thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("58thlinka")) {
+ document.getElementById('58thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("60thlink")) {
- document.getElementById('60thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("59thlinka")) {
+ document.getElementById('59thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("61thlink")) {
- document.getElementById('61thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("60thlinka")) {
+ document.getElementById('60thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("62thlink")) {
- document.getElementById('62thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("61thlinka")) {
+ document.getElementById('61thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("63thlink")) {
- document.getElementById('63thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("62thlinka")) {
+ document.getElementById('62thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("64thlink")) {
- document.getElementById('64thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("63thlinka")) {
+ document.getElementById('63thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("65thlink")) {
- document.getElementById('65thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("64thlinka")) {
+ document.getElementById('64thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("66thlink")) {
- document.getElementById('66thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("65thlinka")) {
+ document.getElementById('65thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("67thlink")) {
- document.getElementById('67thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("66thlinka")) {
+ document.getElementById('66thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("68thlink")) {
- document.getElementById('68thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("67thlinka")) {
+ document.getElementById('67thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("69thlink")) {
- document.getElementById('69thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("68thlinka")) {
+ document.getElementById('68thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("70thlink")) {
- document.getElementById('70thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("69thlinka")) {
+ document.getElementById('69thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("71thlink")) {
- document.getElementById('71thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("70thlinka")) {
+ document.getElementById('70thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("72thlink")) {
- document.getElementById('72thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("71thlinka")) {
+ document.getElementById('71thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("73thlink")) {
- document.getElementById('73thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("72thlinka")) {
+ document.getElementById('72thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("74thlink")) {
- document.getElementById('74thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("73thlinka")) {
+ document.getElementById('73thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("75thlink")) {
- document.getElementById('75thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("74thlinka")) {
+ document.getElementById('74thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("76thlink")) {
- document.getElementById('76thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("75thlinka")) {
+ document.getElementById('75thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("77thlink")) {
- document.getElementById('77thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("76thlinka")) {
+ document.getElementById('76thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("78thlink")) {
- document.getElementById('78thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("77thlinka")) {
+ document.getElementById('77thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("79thlink")) {
- document.getElementById('79thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("78thlinka")) {
+ document.getElementById('78thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("80thlink")) {
- document.getElementById('80thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("79thlinka")) {
+ document.getElementById('79thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("81thlink")) {
- document.getElementById('81thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("80thlinka")) {
+ document.getElementById('80thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("82thlink")) {
- document.getElementById('82thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("81thlinka")) {
+ document.getElementById('81thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("83thlink")) {
- document.getElementById('83thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("82thlinka")) {
+ document.getElementById('82thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("84thlink")) {
- document.getElementById('84thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("83thlinka")) {
+ document.getElementById('83thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("85thlink")) {
- document.getElementById('85thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("84thlinka")) {
+ document.getElementById('84thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("86thlink")) {
- document.getElementById('86thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("85thlinka")) {
+ document.getElementById('85thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("87thlink")) {
- document.getElementById('87thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("86thlinka")) {
+ document.getElementById('86thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("88thlink")) {
- document.getElementById('88thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("87thlinka")) {
+ document.getElementById('87thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("89thlink")) {
- document.getElementById('89thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("88thlinka")) {
+ document.getElementById('88thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("90thlink")) {
- document.getElementById('90thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("89thlinka")) {
+ document.getElementById('89thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("91thlink")) {
- document.getElementById('91thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("90thlinka")) {
+ document.getElementById('90thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("92thlink")) {
- document.getElementById('92thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("91thlinka")) {
+ document.getElementById('91thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("93thlink")) {
- document.getElementById('93thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("92thlinka")) {
+ document.getElementById('92thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("94thlink")) {
- document.getElementById('94thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("93thlinka")) {
+ document.getElementById('93thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("95thlink")) {
- document.getElementById('95thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("94thlinka")) {
+ document.getElementById('94thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("96thlink")) {
- document.getElementById('96thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("95thlinka")) {
+ document.getElementById('95thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("97thlink")) {
- document.getElementById('97thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("96thlinka")) {
+ document.getElementById('96thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("98thlink")) {
- document.getElementById('98thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("97thlinka")) {
+ document.getElementById('97thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("99thlink")) {
- document.getElementById('99thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("98thlinka")) {
+ document.getElementById('98thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("100thlink")) {
- document.getElementById('100thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("99thlinka")) {
+ document.getElementById('99thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("101thlink")) {
- document.getElementById('101thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("100thlinka")) {
+ document.getElementById('100thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("102thlink")) {
- document.getElementById('102thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("101thlinka")) {
+ document.getElementById('101thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("103thlink")) {
- document.getElementById('103thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("102thlinka")) {
+ document.getElementById('102thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("104thlink")) {
- document.getElementById('104thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("103thlinka")) {
+ document.getElementById('103thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("105thlink")) {
- document.getElementById('105thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("104thlinka")) {
+ document.getElementById('104thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("106thlink")) {
- document.getElementById('106thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("105thlinka")) {
+ document.getElementById('105thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("107thlink")) {
- document.getElementById('107thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("106thlinka")) {
+ document.getElementById('106thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("108thlink")) {
- document.getElementById('108thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("107thlinka")) {
+ document.getElementById('107thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("109thlink")) {
- document.getElementById('109thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("108thlinka")) {
+ document.getElementById('108thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("110thlink")) {
- document.getElementById('110thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("109thlinka")) {
+ document.getElementById('109thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("111thlink")) {
- document.getElementById('111thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("110thlinka")) {
+ document.getElementById('110thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("112thlink")) {
- document.getElementById('112thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("111thlinka")) {
+ document.getElementById('111thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("113thlink")) {
- document.getElementById('113thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("112thlinka")) {
+ document.getElementById('112thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("114thlink")) {
- document.getElementById('114thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("113thlinka")) {
+ document.getElementById('113thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("115thlink")) {
- document.getElementById('115thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("114thlinka")) {
+ document.getElementById('114thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("116thlink")) {
- document.getElementById('116thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("115thlinka")) {
+ document.getElementById('115thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("117thlink")) {
- document.getElementById('117thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("116thlinka")) {
+ document.getElementById('116thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("118thlink")) {
- document.getElementById('118thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("117thlinka")) {
+ document.getElementById('117thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("119thlink")) {
- document.getElementById('119thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("118thlinka")) {
+ document.getElementById('118thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("120thlink")) {
- document.getElementById('120thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("119thlinka")) {
+ document.getElementById('119thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("121thlink")) {
- document.getElementById('121thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("120thlinka")) {
+ document.getElementById('120thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("122thlink")) {
- document.getElementById('122thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("121thlinka")) {
+ document.getElementById('121thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("123thlink")) {
- document.getElementById('123thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("122thlinka")) {
+ document.getElementById('122thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("124thlink")) {
- document.getElementById('124thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("123thlinka")) {
+ document.getElementById('123thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("125thlink")) {
- document.getElementById('125thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("124thlinka")) {
+ document.getElementById('124thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("126thlink")) {
- document.getElementById('126thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("125thlinka")) {
+ document.getElementById('125thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("127thlink")) {
- document.getElementById('127thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("126thlinka")) {
+ document.getElementById('126thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("128thlink")) {
- document.getElementById('128thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("127thlinka")) {
+ document.getElementById('127thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("129thlink")) {
- document.getElementById('129thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("128thlinka")) {
+ document.getElementById('128thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("130thlink")) {
- document.getElementById('130thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("129thlinka")) {
+ document.getElementById('129thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("131thlink")) {
- document.getElementById('131thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("130thlinka")) {
+ document.getElementById('130thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("132thlink")) {
- document.getElementById('132thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("131thlinka")) {
+ document.getElementById('131thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("133thlink")) {
- document.getElementById('133thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("132thlinka")) {
+ document.getElementById('132thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("134thlink")) {
- document.getElementById('134thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("133thlinka")) {
+ document.getElementById('133thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("135thlink")) {
- document.getElementById('135thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("134thlinka")) {
+ document.getElementById('134thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("136thlink")) {
- document.getElementById('136thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("135thlinka")) {
+ document.getElementById('135thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("137thlink")) {
- document.getElementById('137thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("136thlinka")) {
+ document.getElementById('136thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("138thlink")) {
- document.getElementById('138thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("137thlinka")) {
+ document.getElementById('137thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("139thlink")) {
- document.getElementById('139thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("138thlinka")) {
+ document.getElementById('138thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("140thlink")) {
- document.getElementById('140thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("139thlinka")) {
+ document.getElementById('139thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("141thlink")) {
- document.getElementById('141thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("140thlinka")) {
+ document.getElementById('140thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("142thlink")) {
- document.getElementById('142thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("141thlinka")) {
+ document.getElementById('141thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("143thlink")) {
- document.getElementById('143thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("142thlinka")) {
+ document.getElementById('142thlinka').style.backgroundColor = "yellow";
 }
-if (localStorage.getItem("144thlink")) {
- document.getElementById('144thlink').style.backgroundColor = "yellow";
+if (localStorage.getItem("143thlinka")) {
+ document.getElementById('143thlinka').style.backgroundColor = "yellow";
+}
+if (localStorage.getItem("144thlinka")) {
+ document.getElementById('144thlinka').style.backgroundColor = "yellow";
 }
